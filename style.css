@@ -26,10 +26,11 @@ body {
 	background-image: linear-gradient(to right, var(--colora) 1px, transparent 0.5px), linear-gradient(to bottom, var(--colora) 1px, transparent 0.5px);
 	background-size: 80px 80px;
 	background-attachment: fixed;
-	animation: bodymove 1200s linear infinite;
+	animation: bodymove 1100s linear infinite;
+	
 
 	font-family: 'Courier New', Courier, monospace;
-
+	scroll-margin-bottom: var(--startpos);
 	scroll-behavior: smooth;
 	image-rendering: pixelated;
 }
